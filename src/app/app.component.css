@@ -1,0 +1,970 @@
+* {
+    list-style: none;
+    font-size: 18px;
+}
+
+#primero {
+    width: 100%;
+}
+
+#contenidoVariable {
+    width: 100%;
+}
+
+/* HEADER*/
+.floatUl {
+    float: right;
+    margin: 0;
+}
+
+/*MAIN*/
+main {
+    margin-top: 150px;
+}
+
+main div {
+    display: inline-block;
+}
+
+main div div p {
+    color: hsl(229, 8%, 60%);
+}
+
+#btnFirefox {
+    background-color: #f4f4f4;
+    border: 2px solid #f4f4f4;
+    ;
+    color: hsl(229, 31%, 21%);
+    box-shadow: 0px 10px 20px -14px hsl(231, 69%, 60%);
+    margin-left: 15px;
+}
+
+#btnChrome {
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+    color: white;
+}
+
+#btnChrome:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+#btnFirefox:hover {
+    background-color: #f4f4f4;
+    border: 2px solid hsl(229, 31%, 21%);
+    ;
+    color: hsl(229, 31%, 21%);
+}
+
+.btnFeatures {
+    background-color: white;
+    border: white;
+    border-bottom-color: white;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: hsl(229, 8%, 60%) solid 2px;
+    padding: 25px 55px 25px 55px;
+}
+
+#btnFeatures1:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#btnFeatures2:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#btnFeatures3:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+
+#divFeatures {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#divFeatures h1 {
+    font-size: 30px;
+}
+
+#img2 {
+    left: 0;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.btnMoreInfo {
+    background-color: hsl(231, 69%, 60%);
+    border: hsl(231, 69%, 60%);
+    border-radius: 4px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#download {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tarjetas h1 {
+    font-size: 16px !important;
+}
+
+.tarjetas p {
+    font-size: 11px;
+}
+
+.tarjetas button {
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+    padding: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tarjetaBTN1:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+
+#tarjetaBTN2:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+#tarjetaBTN3:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+.lineaTarjetas {
+    width: 142px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#faqs1:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#faqs2:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#faqs3:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#ultimofaqs:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#ultimofaqs {
+    border-bottom: 1px solid hsl(229, 8%, 60%)
+}
+
+
+@keyframes slidein {
+    from {
+        opacity: 0%;
+
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes flechitabaAbajoArriba {
+    from {
+        filter: none;
+        transform: rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(120deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes flechitaArribaAbajo {
+    from {
+        filter: hue-rotate(120deg);
+        transform: rotate(180deg);
+    }
+
+    to {
+        filter: none;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes abrirNav {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes cerrarNav {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+    }
+}
+
+
+#preguntas button {
+    margin-top: 70px;
+}
+
+#contenidoAzul p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#contenidoAzul div button:hover {
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+    outline: 2px solid hsl(0, 94%, 66%)
+}
+
+#contenidoAzul div input {
+    padding: 7px;
+    border: white;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 13px;
+    border: 4px solid white;
+}
+
+#divError {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#contenidoAzul div img {
+    margin-left: -33px;
+    padding-top: 10px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.txtLi {
+    padding-top: 25px !important;
+    padding-bottom: 13px !important;
+}
+
+#txtLi1:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#txtLi2:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#txtLi3:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+#imgLi1:hover {
+    filter: invert(0.4) sepia(1) hue-rotate(270deg);
+}
+
+#imgLi2:hover {
+    filter: invert(0.4) sepia(1) hue-rotate(270deg);
+}
+
+.imgLi {
+    margin-left: 268px;
+}
+
+@media (min-width: 375px) {
+    header {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    #contenido {
+        margin: 50px 0px 0px 0px;
+        color: hsl(229, 31%, 21%);
+    }
+
+    #navPc {
+        display: none;
+    }
+
+    #navDesplegado {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: hsla(229.1, 30.8%, 21%, 0.94);
+        z-index: 2;
+        text-align: center;
+        animation-duration: 0.7s;
+    }
+
+    #navDesplegado ul {
+        padding: 0;
+        margin-top: 150px;
+        margin-bottom: 230px;
+    }
+
+    #imgNav1 {
+        left: 0;
+        position: absolute;
+        padding: 31px;
+        filter: grayscale(100%) invert(100%);
+    }
+
+    #imgNav2 {
+        right: 0;
+        position: absolute;
+        padding: 31px;
+    }
+
+    .btnTelefono {
+        background-color: #fff0;
+        border: 2px solid #fff0;
+        border-top-color: rgba(255, 255, 255, 0);
+        border-top-style: solid;
+        border-top-width: 2px;
+        color: white;
+        padding: 20px 36% 20px 35%;
+        border-top: 1px solid hsl(229, 8%, 60%);
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    #menuHambur {
+        display: block;
+        width: 25px;
+    }
+
+    #img1 {
+        width: 370px;
+        margin-left: 22px;
+        margin-top: 34px;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        margin-right: 0px;
+
+    }
+
+    #figuraAzul {
+        width: 300px;
+        height: 230px;
+        background-color: hsl(231, 69%, 60%);
+        right: 128px;
+        position: absolute;
+        margin-right: -128px;
+        margin-top: 70px;
+        border-bottom-left-radius: 150px;
+    }
+
+    .primerContenido {}
+
+    .btn {
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 4px 8px 4px 8px;
+        background-color: white;
+        border: 2px solid white;
+        color: hsl(229, 31%, 21%);
+    }
+
+    #contenidoIMGAZUL {
+        margin-top: -545px;
+        display: block;
+    }
+
+    #contenidoTEXTO {
+        margin-top: 230px;
+        display: block;
+        text-align: center;
+    }
+
+    .primerContenido h1 {
+        font-size: 27px;
+    }
+
+    #contenidoTEXTO p {
+        font-size: 15px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    #divFeatures p {
+        margin-left: 0;
+        margin-right: 0;
+        color: hsl(229, 8%, 60%);
+    }
+
+    #img2 {
+        left: 0;
+        position: absolute;
+        width: 310px;
+        margin-left: 35px !important;
+        margin-top: 90px;
+    }
+
+    #figuraAzulContenidoVariable {
+        width: 423px;
+        height: 220px;
+        background-color: hsl(231, 69%, 60%);
+        margin-left: -128px;
+        margin-top: 125px;
+        border-bottom-right-radius: 160px;
+    }
+
+    #contenidoVariable {
+        margin-top: 0;
+    }
+
+    #textoContenidoVariable {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #textoContenidoVariable p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #textoContenidoVariable h1 {
+        font-size: 23px;
+    }
+
+    #moreInfoVariable {
+        visibility: hidden;
+    }
+
+    #download h1 {
+        font-size: 22px;
+    }
+
+    #download #downloadP {
+        margin-left: 15px;
+        margin-right: 15px;
+        color: hsl(229, 8%, 60%);
+    }
+
+    #tarjeta1 {
+        margin-top: 50px;
+    }
+
+    #tarjeta2 {
+        margin-top: 50px;
+    }
+
+    #tarjeta3 {
+        margin-top: 50px;
+    }
+
+    #tarjetas {
+        display: block;
+    }
+
+    .tarjetas {
+        box-shadow: 0px 6px 26px -15px hsl(229, 8%, 60%);
+        padding: 20px;
+        margin-left: 0;
+
+        height: fit-content;
+    }
+
+    #preguntas {
+        width: 100%;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    #preguntas h1 {
+        font-size: 25px;
+    }
+
+    #preguntas p {
+        margin-left: 15px;
+        margin-right: 15px;
+        color: hsl(229, 8%, 60%);
+    }
+
+    .flechita {
+        margin-left: -7px;
+        z-index: -1;
+        position: relative;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    .faqs {
+        border: white;
+        width: 330px;
+        text-align: left;
+        border-top: 1px solid hsl(229, 8%, 60%);
+        padding: 15px 0px 15px 0px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #faqs1 {
+        border-top: none;
+    }
+
+    #contenidoAzul h1 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 22px;
+
+    }
+
+    #contenidoAzul div button {
+        margin-left: 0;
+        background-color: hsl(0, 94%, 66%);
+        border: hsl(0, 94%, 66%);
+        border-radius: 4px;
+        font-size: 13px;
+        padding: 11px;
+        color: white;
+        cursor: pointer;
+        width: 213px;
+        margin-top: 20px;
+        display: block;
+    }
+
+    #mensajeError {
+        font-size: 9px !important;
+        background-color: hsl(0, 94%, 66%);
+        border-radius: 4px;
+        text-transform: capitalize !important;
+        text-align: left;
+        display: none;
+        z-index: 1;
+        position: absolute;
+        padding: 0px 41px 1px 13px;
+        margin: -64px 499px auto 494px;
+        width: 161px;
+        color: white;
+    }
+
+    footer div ul li {
+        float: none;
+        margin-right: 0;
+        font-size: 11px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    footer div ul li p {
+        z-index: 1;
+        color: white;
+        margin-top: -25px;
+        margin-left: 8px;
+        font-size: 16px;
+        text-transform: full-size-kana;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    footer div {
+        width: 100%;
+        height: 300px;
+        background-color: hsl(229, 31%, 21%);
+        color: white;
+        padding: 0px 9px 0px 128px;
+        margin: -18px 30px 0px -128px;
+    }
+
+    footer div ul {
+        padding: 0;
+    }
+
+    .imgLi {
+        margin-left: 0;
+        float: left !important;
+    }
+
+    #imgLi1 {
+        right: 56%;
+        position: absolute;
+    }
+
+    #imgLi2 {
+        left: 56%;
+        position: absolute;
+    }
+
+    #contenidoAzul {
+        background-color: hsl(231, 69%, 60%);
+        color: white;
+        width: 100%;
+        padding: 45px 9px 40px 128px;
+        margin-left: -128px;
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .p {
+        line-height: 26px;
+        text-align: left;
+        animation-name: slidein;
+        animation-duration: 0.5s;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (min-width: 1281px) {
+    header {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+    #navPc {
+        display: block;
+    }
+
+    #navDesplegado {
+        display: none;
+
+    }
+
+    #menuHambur {
+        display: none;
+    }
+
+    #contenido {
+        margin: 50px 120px 0px 120px;
+        color: hsl(229, 31%, 21%);
+    }
+
+    .floatLi {
+        margin-left: 20px;
+        float: left;
+    }
+
+    .btn {
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 5px 20px 5px 20px;
+        background-color: white;
+        border: 2px solid white;
+        color: hsl(229, 31%, 21%);
+    }
+
+    #login {
+        color: white;
+        background-color: hsl(0, 94%, 66%);
+        border: 2px solid hsl(0, 94%, 66%);
+    }
+
+    #features:hover {
+        color: hsl(0, 94%, 66%);
+
+    }
+
+    #login:hover {
+        background-color: white;
+        color: hsl(0, 94%, 66%);
+
+    }
+
+    #divFeatures {
+        width: 100%;
+    }
+
+    #img1 {
+        width: 600px;
+        margin-left: 20px;
+        margin-top: -60px;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+    }
+
+    #figuraAzul {
+        width: 455px;
+        height: 310px;
+        background-color: hsl(231, 69%, 60%);
+        right: 128px;
+        position: absolute;
+        margin-right: -128px;
+        margin-top: 70px;
+        border-bottom-left-radius: 150px;
+    }
+
+    .primerContenido {
+        width: 50%;
+        float: left;
+    }
+
+    #contenidoIMGAZUL {
+        margin-top: 0;
+        display: block;
+
+    }
+
+    #contenidoTEXTO {
+        margin-top: 0;
+        display: block;
+        text-align: left;
+    }
+
+    .primerContenido h1 {
+        font-size: 40px;
+    }
+
+    #contenidoTEXTO p {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #divFeatures p {
+        margin-left: 252px;
+        margin-right: 252px;
+        color: hsl(229, 8%, 60%);
+    }
+
+    #img2 {
+        left: 0;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    #figuraAzulContenidoVariable {
+        width: 580px;
+        height: 342px;
+        background-color: hsl(231, 69%, 60%);
+        margin-left: -128px;
+        margin-top: 125px;
+        border-bottom-right-radius: 160px;
+    }
+
+    #contenidoVariable {
+        margin-top: 50px;
+    }
+
+    #textoContenidoVariable {
+        width: 40%;
+        float: right;
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    #textoContenidoVariable h1 {
+        font-size: 30px;
+    }
+
+    #moreInfoVariable {
+        visibility: visible;
+    }
+
+    #download h1 {
+        font-size: 25px;
+    }
+
+    #download #downloadP {
+        margin-left: 225px;
+        margin-right: 225px;
+        color: hsl(229, 8%, 60%);
+    }
+
+    #tarjetas {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tarjetas {
+        box-shadow: 0px 6px 26px -15px hsl(229, 8%, 60%);
+        padding: 20px;
+        margin-left: 80px;
+
+        height: fit-content;
+    }
+
+    #preguntas {
+        width: 100%;
+        text-align: center;
+        margin-top: 125px;
+    }
+
+    #preguntas h1 {
+        font-size: 25px;
+    }
+
+    #preguntas p {
+        margin-left: 280px;
+        margin-right: 280px;
+        color: hsl(229, 8%, 60%);
+    }
+
+    .flechita {
+        margin-left: -20px;
+        z-index: -1;
+        position: relative;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    .faqs {
+        border: white;
+        width: 560px;
+        text-align: left;
+        border-top: 1px solid hsl(229, 8%, 60%);
+        padding: 15px 0px 15px 0px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #faqs1 {
+        border-top: 1px solid hsl(229, 8%, 60%);
+    }
+
+    #contenidoAzul h1 {
+        margin-left: 371px;
+        margin-right: 370px;
+        font-size: 23px;
+
+    }
+
+    #contenidoAzul div button {
+        margin-left: 5px;
+        background-color: hsl(0, 94%, 66%);
+        border: hsl(0, 94%, 66%);
+        border-radius: 4px;
+        font-size: 13px;
+        padding: 11px;
+        color: white;
+        cursor: pointer;
+        width: auto;
+        display: initial;
+    }
+
+    #mensajeError {
+        font-size: 9px !important;
+        background-color: hsl(0, 94%, 66%);
+        border-radius: 4px;
+        text-transform: capitalize !important;
+        text-align: left;
+        display: none;
+        z-index: 1;
+        position: absolute;
+        padding: 5px 49px 5px 13px;
+        margin: -4px 490px auto 392px;
+        width: auto;
+    }
+
+    footer div ul li {
+        float: left;
+        margin-right: 58px;
+        font-size: 11px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    footer div ul li p {
+        z-index: 1;
+        position: absolute;
+        color: white;
+        margin-top: -25px;
+        margin-left: 34px;
+        font-size: 16px;
+        text-transform: full-size-kana;
+        font-weight: bold;
+        width: auto;
+    }
+
+    footer div {
+        width: 100%;
+        height: 65px;
+        background-color: hsl(229, 31%, 21%);
+        color: white;
+        padding: 0px 128px 0px 128px;
+        margin: -18px 30px 0px -128px;
+    }
+
+    .imgLi {
+        margin-left: 268px;
+        float: none;
+    }
+
+    #imgLi1 {
+        position: initial;
+    }
+
+    #imgLi2 {
+        position: initial;
+    }
+
+    #contenidoAzul {
+        background-color: hsl(231, 69%, 60%);
+        color: white;
+        width: 100%;
+        padding: 45px 128px 40px 128px;
+        margin-left: -128px;
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .p {
+        line-height: 26px;
+        text-align: left;
+        animation-name: slidein;
+        animation-duration: 0.5s;
+        width: 564px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    #tarjeta1 {
+        margin-top: 50px;
+    }
+
+    #tarjeta2 {
+        margin-top: 100px;
+    }
+
+    #tarjeta3 {
+        margin-top: 150px;
+    }
+}

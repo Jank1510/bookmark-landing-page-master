@@ -1,0 +1,188 @@
+<div id="contenido">
+  <header>
+    <img src="../assets/logo-bookmark.svg" alt="logo">
+    <nav class="floatUl">
+      <ul id="navPc" class="floatUl">
+
+        <li class="floatLi"><button class="btn" id="features">Features</button></li>
+        <li class="floatLi"><button class="btn">Pricing</button></li>
+        <li class="floatLi"><button class="btn">Contact</button></li>
+        <li class="floatLi"><button class="btn" id="login" type="button">Login</button></li>
+
+      </ul>
+
+      <img id="menuHambur" (click)="MenuTelefono()" src="../assets/icon-hamburger.svg" alt="menu">
+
+
+      <div [ngStyle]="{'animation-name':nameAnimation}" id="navDesplegado" *ngIf="desplegar">
+        <img id="imgNav1" src="../assets/logo-bookmark.svg" alt="logo">
+        <img id="imgNav2" (click)="cerrarNav()" src="../assets/icon-close.svg" alt="close">
+
+        <ul>
+          <li><button class="btnTelefono">Features</button></li>
+          <li><button class="btnTelefono">Pricing</button></li>
+          <li><button class="btnTelefono">Contact</button></li>
+          <li><button class="btnTelefono" type="button">Login</button></li>
+        </ul>
+
+        <li id="imgLi1" class="imgLi"><img src="../assets/icon-facebook.svg" alt="logo facebook"></li>
+        <li id="imgLi2"><img src="../assets/icon-twitter.svg" alt="logo twitter"></li>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="primero">
+      <div id="contenidoTEXTO" class="primerContenido">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>A clean and simple interface to organize your favorite website. Open a new
+          browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <button class="btn" id="btnChrome">Get it on Chrome</button>
+        <button class="btn" id="btnFirefox">Get it on Firefox</button>
+      </div>
+      <div id="contenidoIMGAZUL" class="primerContenido">
+        <div id="figuraAzul"></div>
+        <img id="img1" src="../assets/illustration-hero.svg" alt="Imagen ilustrativa">
+      </div>
+    </div>
+    <div id="divFeatures">
+      <h1>Features</h1>
+      <p>Our aim is to make it quick and easy for you to access your
+        favourite website. Your bookmarks sync between your devices
+        so you can access them on the go.
+      </p>
+      <button (click)="btnFeatures1()" [ngStyle]="{'border-bottom':borderBtnLinea1 , 'padding-bottom':paddingBtnLinea1}"
+        id="btnFeatures1" class="btnFeatures">Simple Bookmarking</button>
+      <button (click)="btnFeatures2()" [ngStyle]="{'border-bottom':borderBtnLinea2 , 'padding-bottom':paddingBtnLinea2}"
+        id="btnFeatures2" class="btnFeatures">Speddy Searching</button>
+      <button (click)="btnFeatures3()" [ngStyle]="{'border-bottom':borderBtnLinea3 , 'padding-bottom':paddingBtnLinea3}"
+        id="btnFeatures3" class="btnFeatures">Easy Sharing</button>
+    </div>
+    <div id="contenidoVariable">
+      <div>
+        <div id="figuraAzulContenidoVariable"></div>
+        <img [ngStyle]="{'margin-left':disenoIMG}" id="img2" src="{{img}}" alt="Imagen demostrativa">
+      </div>
+      <div id="textoContenidoVariable">
+        <h1>{{titulo}}</h1>
+        <p>{{texto}}</p>
+        <button id="moreInfoVariable" class="btnMoreInfo">More Info</button>
+      </div>
+    </div>
+    <div id="download">
+      <h1>Download the extension</h1>
+      <p id="downloadP">We've got more browsers in the pipeline. Please do let us know if
+        you've got a favorite you'd like us prioritize.
+      </p>
+      <div id="tarjetas">
+        <div id="tarjeta1" class="tarjetas">
+          <img src="../assets/logo-chrome.svg" alt="">
+          <h1>Add to Chrome</h1>
+          <p>Minimum version 62</p>
+          <img class="lineaTarjetas" src="../assets/bg-dots.svg" alt="">
+          <button id="tarjetaBTN1">Add & install Extension</button>
+        </div>
+        <div id="tarjeta2" class="tarjetas">
+          <img src="../assets/logo-firefox.svg" alt="">
+          <h1>Add to Firefox</h1>
+          <p>Minimum version 65</p>
+          <img class="lineaTarjetas" src="../assets/bg-dots.svg" alt="">
+          <button id="tarjetaBTN2">Add & install Extension</button>
+        </div>
+        <div id="tarjeta3" class="tarjetas">
+          <img src="../assets/logo-opera.svg" alt="">
+          <h1>Add to Opera</h1>
+          <p>Minimum version 46</p>
+          <img class="lineaTarjetas" src="../assets/bg-dots.svg" alt="">
+          <button id="tarjetaBTN3">Add & install Extension</button>
+        </div>
+      </div>
+    </div>
+    <div id="preguntas">
+      <h1>Frequently Asked Questions</h1>
+      <p>Here are some our FAQs. if you have any other questions
+        you'd like answered please feel free to email us.
+      </p>
+      <div>
+        <div>
+          <div (click)="WhatIsBookmark()">
+            <div id="faqs1" class="faqs">What is Bookmark?</div>
+            <div [ngStyle]="{'animation-name':nameAnimation1}" class="flechita"><img src="../assets/icon-arrow.svg"
+                alt="Mas contenido"></div>
+          </div>
+          <p [ngStyle]="{'display':visible1}" class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+        </div>
+        <br>
+        <div>
+          <div (click)="HowCanBrowser()">
+            <div id="faqs2" class="faqs">How can i request a new browser?</div>
+            <div [ngStyle]="{'animation-name':nameAnimation2}" class="flechita"><img src="../assets/icon-arrow.svg"
+                alt="Mas contenido"></div>
+          </div>
+          <p [ngStyle]="{'display':visible2}" class="p">Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula.
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+        </div>
+        <br>
+        <div>
+          <div (click)="IsThereApp()">
+            <div id="faqs3" class="faqs">Is there a mobile app?</div>
+            <div [ngStyle]="{'animation-name':nameAnimation3}" class="flechita"><img src="../assets/icon-arrow.svg"
+                alt="Mas contenido"></div>
+          </div>
+          <p [ngStyle]="{'display':visible3}" class="p">Sed consectetur quam id neque fermentum accumsan. Praesent
+            luctus
+            vestibulum dolor, ut condimentum
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+            sollicitudin ex et ultricies bibendum.</p>
+        </div>
+        <br>
+        <div>
+          <div (click)="WhatAboutBrowsers()">
+            <div id="ultimofaqs" class="faqs">What about other Chromium browser?</div>
+            <div [ngStyle]="{'animation-name':nameAnimation4}" class="flechita"><img src="../assets/icon-arrow.svg"
+                alt="Mas contenido"></div>
+          </div>
+          <p [ngStyle]="{'display':visible4}" class="p">Integer condimentum ipsum id imperdiet finibus. Vivamus in
+            placerat
+            mi, at euismod dui. Aliquam
+            vitae neque eget nisl gravida pellentesque non ut velit.</p>
+        </div>
+      </div>
+      <br>
+      <button class="btnMoreInfo">More Info</button>
+    </div>
+    <br>
+    <div id="contenidoAzul">
+      <p>35,000+ already joined</p>
+      <h1> Stay up-to-date with what we’re doing</h1>
+      <div>
+        <input (click)="quitarTodo()" [ngStyle]="{'border':borderRojo}" [(ngModel)]='email' name="email" type="email"
+          placeholder="Enter your email address">
+        <img [ngStyle]="{'visibility':imagenError}" src="../assets/icon-error.svg" alt="error">
+        <button (click)="Contactanos()">Contact Us</button>
+      </div>
+      <div id="divError">
+        <p [ngStyle]="{'display':ocultarMensajeerror}" id="mensajeError">Whoops, make sure it's an email</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <ul>
+        <li><img src="../assets/logo-bookmark.svg" alt="logo">
+          <p>BOOKMARK</p>
+        </li>
+        <li id="txtLi1" class="txtLi">FEATURES</li>
+        <li id="txtLi2" class="txtLi">PRICING</li>
+        <li id="txtLi3" class="txtLi">CONTACT</li>
+        <li id="imgLi1" class="imgLi"><img src="../assets/icon-facebook.svg" alt="logo facebook"></li>
+        <li id="imgLi2"><img src="../assets/icon-twitter.svg" alt="logo twitter"></li>
+      </ul>
+    </div>
+  </footer>
+</div>
