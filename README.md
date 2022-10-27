@@ -12,3 +12,4 @@ https://jank1510.github.io/bookmark-landing-page-master/
 
 </p>
 
+Algunos detalles por revisar *
